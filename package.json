@@ -1,0 +1,17 @@
+{
+  "name": "odin-battleship",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "tsc --watch",
+    "tw:build": "tailwindcss -i ./src/tailwind.css -o ./style.css --minify",
+    "tw:watch": "tailwindcss -i ./src/tailwind.css -o ./style.css --watch"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "tailwindcss": "^3.4.14"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
